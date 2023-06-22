@@ -1,0 +1,52 @@
+{
+    "palette": [
+        [
+            110,
+            90,
+            133
+        ],
+        [
+            235,
+            65,
+            2
+        ],
+        [
+            91,
+            40,
+            69
+        ],
+        [
+            122,
+            161,
+            64
+        ]
+    ],
+    "color_objective": [
+        103,
+        114,
+        27
+    ],
+    "selections": {
+        "parents": {
+            "name": "universal",
+            "amount": 500
+        },
+        "new_gen": {
+            "name": "universal",
+            "amount": 500
+        }
+    },
+    "max_population_size": 1000,
+    "max_generations": 400,
+    "cross_over": {
+        "name": "uniform",
+        "probability": 1
+    },
+    "mutation": {
+        "name": "complete",
+        "probability": 0.5,
+        "amount": 2
+    },
+    "implementation": "new_over_actual",
+    "runs": 10
+}
